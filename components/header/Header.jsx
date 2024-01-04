@@ -2,9 +2,10 @@ import React from "react";
 import styles from "./Header.module.css";
 import Link from "next/link";
 import Image from "next/image";
+import MainBackground from "./mainBackground/MainBackground";
+import NavLink from "./navLink/NavLink";
 // Photo source import
 import LogoImage from "@/assets/logo.png";
-import MainBackground from "./mainBackground/MainBackground";
 
 export default function Header() {
   return (
@@ -23,10 +24,10 @@ export default function Header() {
         <nav className={styles.nav}>
           <ul>
             <li>
-              <Link href={"/meals"}>Browse Meals</Link>
+              <NavLink href="/meals">Browse Meals</NavLink>
             </li>
             <li>
-              <Link href={"/community"}>Foodies Community</Link>
+              <NavLink href="/community">Foodies Community</NavLink>
             </li>
           </ul>
         </nav>
