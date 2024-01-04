@@ -1,5 +1,6 @@
 import React from "react";
 import "./globals.css";
+import Header from "@/components/header/Header";
 
 export const metadata = {
   title: "NextLevel Food",
@@ -30,7 +31,7 @@ export default function RootLayout({ children }) {
             ></path>
           </svg>
         </div>
-
+        <Header />
         {children}
       </body>
     </html>
