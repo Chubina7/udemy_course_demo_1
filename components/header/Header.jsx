@@ -4,7 +4,7 @@ import Link from "next/link";
 import Image from "next/image";
 // Photo source import
 import LogoImage from "@/assets/logo.png";
-import MainBackground from "../mainBackground/MainBackground";
+import MainBackground from "./mainBackground/MainBackground";
 
 export default function Header() {
   return (

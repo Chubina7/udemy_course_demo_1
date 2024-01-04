@@ -1,7 +1,7 @@
 import React from "react";
 import "./globals.css";
 import Header from "@/components/header/Header";
-import MainBackground from "@/components/mainBackground/MainBackground";
+import MainBackground from "@/components/header/mainBackground/MainBackground";
 
 export const metadata = {
   title: "NextLevel Food",
