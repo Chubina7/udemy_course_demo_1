@@ -1,8 +1,6 @@
-import React from 'react'
-import styles from "./page.module.css"
+import React from "react";
+import styles from "./page.module.css";
 
-export default function page() {
-  return (
-    <div>./meals/share page</div>
-  )
+export default function ShareMealePage() {
+  return <h1>share meale</h1>;
 }
